@@ -29,7 +29,7 @@ int main()
     int ans=0;
     for(int i=1;i<=n;i++){
         add(a[i],1);
-        cout<<i-getsum(a[i])<<endl;
+        //cout<<i-getsum(a[i])<<endl;
         ans+=i-getsum(a[i]);
     }
     cout<<ans<<endl;
